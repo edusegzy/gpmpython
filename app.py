@@ -21,28 +21,3 @@ def divide_result():
 if __name__ == '__main__':
     app.debug = True
     app.run()
-
-"""
-from flask import Flask, request, render_template
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template('index.jinja2')
-
-@app.route('/divide', methods=['GET', 'POST'])
-def divide():
-    result = None
-    if request.method == 'POST':
-        number = float(request.form['number'])
-        divide_by = float(request.form['divide_by'])
-        result = number / divide_by
-    return render_template('divide.jinja2', result=result)
-
-
-if __name__ == '__main__':
-    app.debug = True
-    app.run()
-
-    """
