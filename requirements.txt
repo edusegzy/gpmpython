@@ -14,13 +14,9 @@ Flask-Script==2.0.5
 Flask-SQLAlchemy==2.3.2
 Flask-Testing==0.6.2
 Flask-WTF==0.14.2
-
 gunicorn==19.9.0
-
 Jinja2==2.10
 jinja2-time==0.2.0
-
-
 oauthlib==2.1.0
 odo==0.5.1
 olefile==0.45.1
@@ -40,12 +36,4 @@ pbr==4.2.0
 pep8==1.7.1
 pexpect==4.3.1
 pickleshare==0.7.4
-
-
-
-urllib3==1.22
-venusian==1.2.0
-virtualenv==16.0.0
-virtualenv-clone==0.3.0
-virtualenvwrapper==4.8.2
 
