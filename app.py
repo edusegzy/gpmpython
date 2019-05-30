@@ -15,7 +15,7 @@ def divide_form():
 def divide_result():
     number = float(request.form['number'])
     divide_by = float(request.form['divide_by'])
-    return render_template('divide_result.jinja2', result=(number*0.453592)/(divide_by*0.3048)**2)
+    return render_template('divide_result.jinja2', result=(number*0.453592)/(divide_by*0.30480)**2)
 
 
 if __name__ == '__main__':
