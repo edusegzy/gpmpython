@@ -13,9 +13,12 @@ def divide_form():
 
 @app.route('/divide_result', methods=['POST'])
 def divide_result():
-    number = float(request.form['number'])
-    divide_by = float(request.form['divide_by'])
-    return render_template('divide_result.jinja2', result=(number*0.453592)/(divide_by*0.30480)**2)
+    methane_num = float(request.form['methane'])
+    ethane_num = float(request.form['ethane'])
+    propane_num = float(request.form['propane'])
+    ibutane_num = float(request.form['iButane'])
+    
+    return render_template('divide_result.jinja2', result=(methane_num*1)+ (ethane_num*1) + (propane_num*1)+ (ibutane_num*1)
 
 
 if __name__ == '__main__':
